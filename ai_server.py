@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 
-from Prediction.ai_main import main_ai
+from server.ai_main import main_ai
 app = Flask(__name__)
 
 
